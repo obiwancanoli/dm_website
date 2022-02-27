@@ -1,2 +1,2 @@
 # dm_website
-This is my personal landing page. 
+This is where all the source code for my personal landing page resides. 
