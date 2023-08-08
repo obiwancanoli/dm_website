@@ -1,0 +1,63 @@
+.gradient-background {
+    background: linear-gradient(300deg, #61876E, #3C6255, #A6BB8D);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.profile-pic {
+  border-radius: 50%;
+}
+
+
+.main-title {
+  color: beige;
+  font-weight: 400;
+  font-family: "Ubuntu";
+  font-size: 120px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+
+.sub-title {
+  margin-bottom: 50px;
+  color: beige;
+  font-weight: 200;
+}
+
+.about-title {
+  font-family: "Ubuntu";
+}
+
+.projects-title {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: beige;
+  font-weight: 400;
+  font-family: "Ubuntu";
+  font-size: 50px;
+
+}
+
+.projects-para {
+  color: beige;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+
+.img-fluid {
+  border-radius: 10%;
+}
